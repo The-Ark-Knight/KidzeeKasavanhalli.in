@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: border-box;
+}
+
 .main-bg {
     background-color: rgb(255, 222, 89);
 }
 
 .dark-yellow {
     background-color: #ffcc00;
+}
+
+
+.container{
+    @apply px-5
 }
